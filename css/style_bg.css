@@ -1,0 +1,36 @@
+body {
+    background-color: #C3C3C3;
+    background-image: url(../images/pattern.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 800px;
+    height: 991px;
+    margin: 29px auto;
+    /*outline:1px solid #FAA21A;*/
+    background-image: url(../images/bg_s.jpg);
+    background-color: #FEFECC;
+    background-repeat: repeat-x;
+}
+
+#main h1 {
+    text-align: center;
+    /*outline:1px solid #cc0000;*/
+    padding-top: 182px;
+    font: 36px Verdana;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 134px 190px;
+}
+
+#wrapper {
+    /*outline:1px solid #cc0000;*/
+    /*background-image:url(../images/tel.jpg);
+background-repeat:no-repeat;
+background-position: 0 120px;
+background-attachment: fixed;*/
+    background: url(../images/tel.jpg) no-repeat fixed 0 120px;
+}

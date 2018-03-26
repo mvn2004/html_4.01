@@ -1,0 +1,72 @@
+@import url(ps.css);
+
+body {
+    background-color: #D2D2D2;
+    font: 11px Verdana;
+    color: #696969;
+}
+
+#wrapper {
+    width: 650px;
+    margin: 30px auto;
+    background-color: #F4F4F4;
+}
+
+#header {
+    height: 75px;
+    background-image: url(../images/redHeader.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#content {
+    padding: 20px 30px;
+}
+
+#new {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*#conteiner {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: #FADEC9;
+    right: 0;
+    top: 0;
+}*/
+
+#button {
+    position: absolute;
+    left: 294px;
+    top: -14px;
+    z-index: 1;
+}
+
+#bird {
+    position: absolute;
+    left: 272px;
+    top: -3px;
+    z-index: 2;
+}
+
+#operator {
+    position: fixed;
+    width: 22px;
+    height: 180px;
+    top: 250px;
+    left: 0;
+}
+
+#operator img {
+    border: none;
+}
+
+#test {
+    /*visibility: hidden; /* скрывает абзац, но место остается */
+    /*display: none; /* удаляет абзац */
+    padding: inherit;
+}
